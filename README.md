@@ -29,11 +29,11 @@ Just give a symbol from Yahoo Finance and see what CapyTrader thinks of it. Of c
    ```
 
 3. Set up the environment variables:
-   - Copy the `.env.example` file to a new file named `.env`:
+   Copy the `.env.example` file to a new file named `.env`:
      ```
      cp .env.example .env
      ```
-   - Open the `.env` file and replace `your_openai_api_key_here` with your actual OpenAI API key.
+   Open the `.env` file and replace `your_openai_api_key_here` with your actual OpenAI API key.
 
 ## Usage
 
@@ -49,15 +49,17 @@ Just give a symbol from Yahoo Finance and see what CapyTrader thinks of it. Of c
 4. Enjoy CapyTrader's analysis!
 
 <p align="left">
-  <img src="home.png" alt="CapyTrader AI Home">
+  <img src="Home.png" alt="CapyTrader AI Home">
 </p>
 <br><br>
+
 <p align="left">
   <img src="NVDA.png" alt="CapyTrader AI - NVDA">
 </p>
 <br><br>
+
 <p align="left">
-  <img src="TIGR.png" alt="CapyTrader AI - TIGR">|
+  <img src="TIGR.png" alt="CapyTrader AI - TIGR">
 </p>
 <br><br>
 
