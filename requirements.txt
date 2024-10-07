@@ -1,0 +1,5 @@
+Flask==3.0.3
+Pillow==10.1.0
+openai==1.6.1
+python-dotenv==1.0.1
+yfinance==0.2.31
