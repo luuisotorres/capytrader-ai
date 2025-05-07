@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
+
 def analyze_stock(stock_symbol):
     if stock_symbol:
         logging.info(f"Analyzing stock: {stock_symbol}")
@@ -44,9 +45,11 @@ def home():
 
     return render_template('index.html', ai_response=ai_response)
 
+
 if __name__ == '__main__':
     if not os.path.exists('static/capytrader.jpg'):
         image = Image.open("capytrader.jpg")
         image.save('static/capytrader.jpg')
-    
+
     app.run(debug=True)
+    
